@@ -71,7 +71,7 @@ relegated to the trash heap.
 %endif
 
 %prep
-%setup -q -n %{modname}-%{version}
+%setup -q -n %{modname}-%{upstream_version}
 
 # Remove bundled egg-info in case it exists
 rm -rf %{modname}.egg-info
